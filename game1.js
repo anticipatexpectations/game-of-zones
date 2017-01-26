@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $(".zone").on("mouseover", function(){
-    $(this).css({"background-color":"green"});
+    $(this).css({"background-color":"#00FF00"});
   });
-  
+
   $(".zone").on("click", function(){
     $(this).off("mouseleave");
     $(this).addClass("clicked");
